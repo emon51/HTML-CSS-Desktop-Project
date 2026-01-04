@@ -66,3 +66,36 @@ body {
     background-color: whitesmoke;
     padding: 10px 15px;
 }
+
+
+/* Main part */
+.main {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+/* Left side */
+.left {
+    flex: 3;
+    background-color: white;
+    padding: 10px;
+}
+
+
+
+
+/* Right side */
+.right {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+}
+
+/* Footer */
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
