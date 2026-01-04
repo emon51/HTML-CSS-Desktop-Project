@@ -99,3 +99,224 @@ body {
     text-align: center;
     padding: 15px;
 }
+
+
+
+/* MESSAGE BOX */
+.message-box-header {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 15px;
+    border: 1px solid lightgreen;
+}
+
+.message-icon {
+  background-color: green;
+  color: white;
+  padding: 5px 8px;
+  border-radius: 40%;
+  margin-right: 10px;
+}
+
+
+.gallery img {
+    width: 100%;
+    height: 300px;
+    background-color: gray;
+}
+
+
+.info {
+    display: flex;
+    gap: 15px;
+    margin: 10px 0;
+}
+
+
+.highlights {
+    margin-top: 30px;
+}
+
+.highlights h2 {
+    margin-bottom: 16px;
+}
+
+
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+
+.card {
+    position: relative;
+    background-color: aliceblue;
+    border-radius: 6px;
+    padding: 16px 16px 16px 48px;
+    width: 48%;
+    box-sizing: border-box;
+}
+
+.card .icon {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    color: teal;
+    font-size: 18px;
+}
+
+
+.card h3 {
+    margin: 0 0 6px 0;
+    font-size: 16px;
+}
+
+.card p {
+    margin: 0;
+    font-size: 14px;
+    color: dimgray;
+}
+
+
+
+.amenities-facility {
+  max-width: 1100px;
+  margin: 40px auto;
+  font-family: sans-serif;
+  border: 1px solid cadetblue;
+  padding-left: 20px;
+}
+
+.amenities-facility h2 {
+  margin: 24px 0 8px;
+}
+
+.desc {
+  font-size: 0.8rem;
+  color: gray;
+  margin-bottom: 16px;
+}
+
+.amenities-grid {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.amenities-grid li {
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+}
+
+
+
+.facility-grid {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.facility-grid ul {
+  list-style: none;
+  padding: 0;
+}
+
+.facility-grid li {
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+}
+
+
+.destination {
+  max-width: 1100px;
+  margin: 40px auto;
+  display: flex;
+  gap: 20px;
+  font-family: sans-serif;
+}
+
+.content {
+  flex: 1;
+}
+
+.map {
+  flex: 1;
+  background: cadetblue;
+  border-radius: 8px;
+  min-height: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content p {
+  font-size: 0.8rem;
+  color: gray;
+}
+
+.content ul {
+  padding-left: 16px;
+}
+
+.content li {
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+}
+
+.map img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content ul {
+  list-style: none;
+}
+
+.booking {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 16px;
+  background: whitesmoke;
+  border-radius: 8px;
+  font-family: sans-serif;
+}
+
+.booking {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 16px;
+  background: whitesmoke;
+  border-radius: 8px;
+  font-family: sans-serif;
+}
+
+
+
+.booking ul {
+  list-style: none;
+  padding: 0;
+}
+
+.booking li {
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  color: gray;
+}
+
+
+.booking ul {
+  list-style: none;
+  padding: 0;
+}
+
+.booking li {
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  color: gray;
+}
+
+
+
