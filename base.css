@@ -60,3 +60,9 @@ body {
 .menu a {
     text-decoration: none;
 }
+
+
+.sections {
+    background-color: whitesmoke;
+    padding: 10px 15px;
+}
