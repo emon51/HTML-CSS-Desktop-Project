@@ -103,13 +103,12 @@ body {
 
 
 /* MESSAGE BOX */
-.message-box-header {
+.message-box {
     margin-top: 5%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     background-color: white;
-    padding: 15px;
+    padding: auto;
     border: 1px solid lightgreen;
 }
 
@@ -119,6 +118,8 @@ body {
   padding: 5px 8px;
   border-radius: 40%;
   margin-right: 10px;
+  text-align: center;
+  margin-left: 2%;
 }
 
 
@@ -137,7 +138,7 @@ body {
 
 
 .highlights {
-    margin-top: 30px;
+    margin-top: 5%;
 }
 
 .highlights h2 {
@@ -184,11 +185,10 @@ body {
 
 
 .amenities-facility {
-  max-width: 1100px;
-  margin: 40px auto;
+  margin-top: 5%;
   font-family: sans-serif;
   border: 1px solid cadetblue;
-  padding-left: 20px;
+  padding: 15px;
 }
 
 .amenities-facility h2 {
@@ -230,11 +230,12 @@ body {
 
 
 .destination {
-  max-width: 1100px;
-  margin: 40px auto;
+  margin-top: 5%;
   display: flex;
   gap: 20px;
   font-family: sans-serif;
+  padding: 15px;
+  border: 1px solid cadetblue;
 }
 
 .content {
@@ -244,9 +245,6 @@ body {
 .map {
   flex: 1;
   background: cadetblue;
-  border-radius: 8px;
-  min-height: 260px;
-  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -268,7 +266,6 @@ body {
 .map img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
 }
 
 .content ul {
@@ -276,21 +273,12 @@ body {
 }
 
 .booking {
-  max-width: 1100px;
-  margin: 40px auto;
-  padding: 16px;
+  margin-top: 5%;
+  padding: 15px;
   background: whitesmoke;
-  border-radius: 8px;
   font-family: sans-serif;
-}
+  border: 1px solid cadetblue;
 
-.booking {
-  max-width: 1100px;
-  margin: 40px auto;
-  padding: 16px;
-  background: whitesmoke;
-  border-radius: 8px;
-  font-family: sans-serif;
 }
 
 
@@ -317,6 +305,204 @@ body {
   font-size: 0.9rem;
   color: gray;
 }
+
+
+/* Right Contents */
+.right-main {
+  background-color: white;
+}
+
+.price {
+  background-color: whitesmoke;
+}
+
+.price-amount {
+  font-weight: bold; 
+  font-size: 28px;                                                                                                ;
+}
+
+.price-text {
+  font-size: 14px;
+  color: gray;
+}
+
+
+.check {
+  display: flex;                                                                                                                                                                                                                                                                                                                             
+  gap: 5px;
+}
+
+.check-in {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 5%;
+  border: 2px solid gray;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5%;
+}
+
+
+.check-in-text {
+  color: gray;
+  font-size: small;
+}
+
+.check-in-date {
+  color: darkolivegreen;
+  font-size: medium;
+}
+
+
+.guest {
+  display: flex;
+  margin-top: 2%;
+  flex-direction: column;
+  border: 2px solid gray;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5%;
+  gap: 5px;
+}
+
+.guest-title{
+  color: gray;
+  font-size: small;
+}
+
+.guest-info {
+  color: darkolivegreen;
+  font-size: medium;
+}
+
+
+.right {
+  position: sticky;
+  top: 0;
+  align-self: flex-start;
+}
+
+
+.price2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 7%;
+  gap: 10px;
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between; 
+}
+
+.info-text {
+  font-weight: bold;
+}
+
+.info-amount {
+  font-weight: bold;
+}
+
+
+.availability {
+  max-width: 1100px;
+  margin: 40px auto;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.check-btn {
+  display: block;
+  padding: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: teal;
+  color: white;
+  border-radius: 8px;
+}
+
+.redirect {
+  margin-top: 12px;
+  font-size: 0.9rem;
+  color: gray;
+}
+
+
+/* Fotter */
+
+.footer {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+  padding: 32px;
+  text-align: left;
+}
+
+
+.footer-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+}
+
+.footer-nav a {
+  color: lightgray;
+  text-decoration: none;
+  font-size: 0.85rem;
+}
+
+
+.footer-text {
+  margin: 24px 0;
+  max-width: 600px;
+  color: lightgray;
+}
+
+
+.footer-columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.footer-columns h4 {
+  margin-bottom: 8px;
+}
+
+.footer-columns ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-columns a {
+  color: lightgray;
+  text-decoration: none;
+  font-size: 0.85rem;
+}
+
+
+.footer-bottom {
+  margin-top: 32px;
+  padding-top: 16px;
+  border-top: 1px solid gray;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  font-size: 0.8rem;
+  color: lightgray;
+}
+
+.owner-2025 {
+  text-align: right;
+  font-size: 0.8rem;
+}
+
 
 
 
