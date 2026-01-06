@@ -503,10 +503,65 @@ body {
   font-size: 0.8rem;
 }
 
+/* Policies */ 
+
+.policies {
+  margin-top: 5%;
+  padding: 15px;
+  background-color: whitesmoke;
+  border: 1px solid cadetblue;
+  font-family: sans-serif;
+}
+
+.policies h2 {
+  margin-bottom: 16px;
+}
+
+
+.policy-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+
+.policy-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  background-color: white;
+  padding: 12px;
+  border-radius: 6px;
+  box-sizing: border-box;
+  width: 32%;   /* 3 boxes per row */
+}
+
+
+
+.icon {
+  width: 24px;
+  height: 24px;
+  background-color: lightgray;
+  border-radius: 4px;
+}
+
+
+.policy-item h4 {
+  margin: 0 0 4px 0;
+  font-size: 14px;
+}
+
+.policy-item p {
+  margin: 0;
+  font-size: 12px;
+  color: gray;
+}
+
 
 
 
 /* DESKTOP */
+/*
 @media (min-width: 1024px) {
 
   .page-wrapper {
@@ -545,4 +600,238 @@ body {
   .footer {
     clear: both;
   }
+
+
+  /* Policies section */
+  .policy-grid {
+    justify-content: space-between;
+  }
+
+  .policy-item {
+    width: calc(33.333% - 14px); /* 3 cards per row */
+  }
 }
+
+*/
+
+/* MOBILE */
+
+/*
+@media (max-width: 768px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .menu {
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  
+  .main {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .left,
+  .right {
+    width: 100%;
+    padding: 15px;
+  }
+
+  
+
+  .gallery img {
+    width: 100%;
+    height: auto;
+    max-height: 260px;
+    object-fit: cover;
+  }
+
+  
+  .info {
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  
+  .card-list {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+
+  .amenities-grid,
+  .facility-grid {
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+  }
+
+  
+  .destination {
+    flex-direction: column;
+  }
+
+  .map {
+    height: 200px;
+  }
+
+  
+  .check {
+    flex-direction: column;
+  }
+
+  
+  .check-btn,
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  
+  .footer-columns {
+    flex-direction: column;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .owner-2025 {
+    text-align: left;
+  }
+}
+
+
+
+.policy-grid {
+  flex-direction: column;
+}
+
+.policy-item {
+  width: 100%;
+}
+
+}
+*/
+
+
+
+/* TABLET */
+
+
+@media (min-width: 769px) and (max-width: 1023px) {
+
+  
+  body {
+    overflow-x: hidden;
+  }
+
+  
+  .header {
+    padding: 16px 24px;
+  }
+
+  .menu {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  
+  .main {
+    gap: 20px;
+    padding: 16px 24px;
+    align-items: flex-start;
+  }
+
+  .left {
+    flex: 2;
+    padding: 16px;
+  }
+
+  .right {
+    flex: 1;
+    padding: 16px;
+    position: sticky;
+    top: 16px;
+    max-height: calc(100vh - 32px);
+    overflow-y: auto;
+  }
+
+  
+  .gallery img {
+    height: auto;
+    max-height: 320px;
+    object-fit: cover;
+  }
+
+  
+  .card {
+    width: 48%;
+  }
+
+  
+  .amenities-grid,
+  .facility-grid {
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  
+  .destination {
+    gap: 16px;
+    padding: 16px;
+  }
+
+  .map {
+    min-height: 240px;
+  }
+
+  
+  .check {
+    gap: 8px;
+  }
+
+  
+  .check-btn {
+    padding: 14px;
+  }
+
+  
+  .footer {
+    padding: 24px;
+  }
+
+  .footer-columns {
+    gap: 24px;
+  }
+
+  .footer-bottom {
+    justify-content: space-between;
+  }
+
+
+.policy-grid {
+  justify-content: space-between;
+}
+
+.policy-item {
+  width: calc(50% - 10px); /* 2 cards per row */
+}
+
+}
+*/
