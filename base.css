@@ -168,6 +168,7 @@ body {
     left: 16px;
     color: teal;
     font-size: 18px;
+    text-align: center;
 }
 
 
@@ -308,6 +309,7 @@ body {
 
 
 /* Right Contents */
+
 .right-main {
   background-color: white;
 }
@@ -498,12 +500,16 @@ body {
   color: lightgray;
 }
 
+.footer-bottom a {
+  color: white;
+}
+
 .owner-2025 {
   text-align: right;
   font-size: 0.8rem;
 }
 
-/* Policies */ 
+/* Left Content Policies */ 
 
 .policies {
   margin-top: 5%;
@@ -533,15 +539,15 @@ body {
   padding: 12px;
   border-radius: 6px;
   box-sizing: border-box;
-  width: 32%;   /* 3 boxes per row */
+  width: 32%;   /* 100 / 3 = 33.33% == 32%, 3 boxes per row */
 }
 
 
 
 .icon {
   width: 24px;
+  .amenities-facility
   height: 24px;
-  background-color: lightgray;
   border-radius: 4px;
 }
 
@@ -560,9 +566,9 @@ body {
 
 
 
-/* DESKTOP */
-/*
-@media (min-width: 1024px) {
+/* DESKTOP's Breakpoint */
+
+@media (min-width: 1200px) {
 
   .page-wrapper {
     max-width: 1200px;
@@ -602,22 +608,22 @@ body {
   }
 
 
-  /* Policies section */
+  
   .policy-grid {
     justify-content: space-between;
   }
 
   .policy-item {
-    width: calc(33.333% - 14px); /* 3 cards per row */
+    width: calc(33.333% - 14px); 
   }
 }
 
-*/
 
-/* MOBILE */
 
-/*
-@media (max-width: 768px) {
+/* MOBILE's Breakpoint*/
+
+
+@media (max-width: 480px) {
 
   body {
     overflow-x: hidden;
@@ -648,6 +654,9 @@ body {
     padding: 15px;
   }
 
+  .right {
+    display: none;
+  }
   
 
   .gallery img {
@@ -714,7 +723,6 @@ body {
   .owner-2025 {
     text-align: left;
   }
-}
 
 
 
@@ -727,16 +735,16 @@ body {
 }
 
 }
-*/
 
 
 
-/* TABLET */
+
+/* TABLET's Breakpoint */
 
 
-@media (min-width: 769px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 991px) {
 
-  
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
   body {
     overflow-x: hidden;
   }
@@ -764,12 +772,7 @@ body {
   }
 
   .right {
-    flex: 1;
-    padding: 16px;
-    position: sticky;
-    top: 16px;
-    max-height: calc(100vh - 32px);
-    overflow-y: auto;
+    display: none;
   }
 
   
@@ -830,8 +833,15 @@ body {
 }
 
 .policy-item {
-  width: calc(50% - 10px); /* 2 cards per row */
+  width: calc(50% - 10px); 
 }
 
 }
-*/
+
+
+
+
+
+
+
+
